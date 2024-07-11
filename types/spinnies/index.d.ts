@@ -116,6 +116,11 @@ declare namespace Spinnies {
         disableSpins: boolean;
 
         /**
+         * Sort the spinners by name when rendering. The default value is `false`.
+         */
+        sort: boolean;
+
+        /**
          * Defines the animated spinner to be used while each spinner is active/spinning.
          */
         spinner: Spinner;

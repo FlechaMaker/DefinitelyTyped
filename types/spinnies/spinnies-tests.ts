@@ -9,6 +9,7 @@ function spinniesClass() {
         succeedPrefix: "✓",
         failPrefix: "✖",
         disableSpins: false,
+        sort: false,
     });
 
     // $ExpectType Options
@@ -54,4 +55,8 @@ function customSpinner() {
 
 function disableSpins() {
     const spinnies = new Spinnies({ disableSpins: true });
+}
+
+function sort() {
+    const spinnies = new Spinnies({ sort: true });
 }
